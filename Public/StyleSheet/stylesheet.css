@@ -1,0 +1,59 @@
+body{
+    margin:0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+h1{
+    margin-left: 40%;
+    margin-right: 30%;
+    margin-top: 3%;
+    margin-bottom: 2%;
+    font-size: 250%;
+}
+#Divider{
+    width: 100vw;
+    height: 3vh;
+    background-color: maroon;
+}
+#Header{
+    margin-top: 0vh;
+    width: 100vw;
+    height: 25vh;
+    background-image: linear-gradient(130deg,#ffffff,#ff5555,#ff3333,#ff1111,#ff0000);
+}
+#Content{
+    height: 55vh;
+    width: 35vw;
+    margin-left: 23vw;
+    margin-top: 5vh;
+    padding-right: 5%;
+    background-color: #eee;
+    padding-left: 14%;
+    padding-bottom: 15px;
+    margin-bottom: 5vh;
+}
+h2{
+    margin-top: 9vh;
+    font-size: 205%;
+    padding-top: 3%;
+}
+button{
+    border: 3px darkslategray solid;
+    font-size: 100%;
+    background-color: honeydew;
+    border-radius: 50px;
+}
+#Button-choice{
+    margin-top:15vh;
+}
+table{
+    margin-left: -6vw;
+    margin-top: 5vh;
+    border: 2px black solid;
+}
+td{
+    height: 25px;
+    text-align: center ;
+    width: 20vw;
+    border: 2px black solid;
+}

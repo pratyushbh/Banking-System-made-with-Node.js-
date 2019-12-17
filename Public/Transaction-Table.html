@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="StyleSheet/stylesheet.css">
+    <title>Document</title>
+</head>
+<body>
+    <div id="Header">
+        <div id="Divider"></div>
+        <h1>Bank System</h1>
+    </div>
+    <div id="Divider"></div>
+    <div id="Content">
+    <h2>Transaction-Table</h2>
+    <p>Submit your name to get your Transaction History</p>
+    <h4>ID:</h4><input type="number" id="id" value="0">
+    <form>
+        <button type="button" onclick="Details()">Show Details</button>
+        <button type="button" onclick="HomePage()">Homepage</button>
+        <table id="Table">
+            <title>Transaction-Table</title>
+            <tbody>
+                <tr>
+                    <td>Date-Time</td>
+                    <td>Transaction</td>
+                </tr>
+            </tbody>
+        </table>
+    </form>
+    </div>
+    <script src="Js/Transaction-Table.js"></script>
+</body>
+</html>
